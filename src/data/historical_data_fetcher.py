@@ -25,6 +25,10 @@ from dataclasses import dataclass, asdict
 import time
 from tqdm import tqdm
 import json
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 from .espn_client import ESPNClient
 from ..models.database_schema import GamesHistory, TeamStatsDaily, Base

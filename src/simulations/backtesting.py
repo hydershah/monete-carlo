@@ -228,11 +228,11 @@ class WalkForwardAnalyzer:
                 X_test, y_test = feature_engineer(test_data, test_data['game_date'].min(),
                                                 historical_data=pd.concat([train_data, test_data]))
             else:
-                # Simple default features
-                X_train = train_data[['home_strength', 'away_strength']].values
-                y_train = train_data['home_win'].values
-                X_test = test_data[['home_strength', 'away_strength']].values
-                y_test = test_data['home_win'].values
+                # Pass full DataFrame for models that need team IDs and game context
+                X_train = train_data
+                y_train = train_data['home_win']
+                X_test = test_data
+                y_test = test_data['home_win']
 
             # Hyperparameter optimization (optional)
             if optimize_hyperparams:

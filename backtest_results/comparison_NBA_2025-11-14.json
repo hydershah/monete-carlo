@@ -1,0 +1,9 @@
+{
+  "league": "NBA",
+  "generated_at": "2025-11-14T22:23:47.513962",
+  "models": {
+    "elo": {
+      "error": "update_ratings() got an unexpected keyword argument 'home_team'"
+    }
+  }
+}

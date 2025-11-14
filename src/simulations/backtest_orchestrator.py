@@ -212,43 +212,136 @@ class ModelWrapper:
 
         logger.info(f"✅ Loaded {self.model_name} model for {self.league}")
 
-    def fit(self, X: np.ndarray, y: np.ndarray):
+    def fit(self, X: pd.DataFrame, y: pd.Series):
         """
         Train model on historical data
 
         Args:
-            X: Feature matrix (games)
+            X: Feature DataFrame (games with all columns)
             y: Target variable (home win = 1)
         """
-        # Convert back to DataFrame if needed
-        if hasattr(self.model, 'train'):
-            # Models with custom train method
-            self.model.train(X, y)
+        if not isinstance(X, pd.DataFrame):
+            logger.error(f"Expected DataFrame but got {type(X)}")
+            return
+
+        # Most models update incrementally game-by-game
+        if self.model_name in ['elo', 'poisson', 'pythagorean']:
+            # These models update ratings game-by-game
+            if hasattr(self.model, 'update_ratings'):
+                # Process each game in chronological order
+                logger.info(f"Training {self.model_name} model on {len(X)} games")
+                for idx in range(len(X)):
+                    game_data = X.iloc[idx]
+
+                    self.model.update_ratings(
+                        home_team=str(game_data.get('home_team_id', game_data.get('home_team_name', 'unknown'))),
+                        away_team=str(game_data.get('away_team_id', game_data.get('away_team_name', 'unknown'))),
+                        home_score=int(game_data.get('home_score', 0)),
+                        away_score=int(game_data.get('away_score', 0))
+                    )
+
+        elif self.model_name == 'logistic':
+            # Logistic regression uses train() method with list of (features, outcomes) tuples
+            if hasattr(self.model, 'train'):
+                # Convert DataFrame to expected format
+                training_data = []
+                for idx in range(len(X)):
+                    game_data = X.iloc[idx] if hasattr(X, 'iloc') else X[idx]
+                    actual_result = y.iloc[idx] if hasattr(y, 'iloc') else y[idx]
+
+                    if hasattr(game_data, 'to_dict'):
+                        features = game_data.to_dict()
+                    else:
+                        features = game_data
+
+                    outcomes = {
+                        'home_win': bool(actual_result),
+                        'home_cover': features.get('home_covered', None),
+                        'over': features.get('went_over', None)
+                    }
+
+                    training_data.append((features, outcomes))
+
+                self.model.train(training_data)
+
+        elif self.model_name == 'ensemble':
+            # Ensemble is pre-trained with base models
+            # Just use the base models as-is for now
+            # TODO: Implement proper GameContext conversion for meta-learner training
+            logger.info(f"Using pre-initialized ensemble (meta-learner training skipped)")
+            pass
+
         else:
-            # Models with sklearn interface
-            self.model.fit(X, y)
+            # Default sklearn interface
+            if hasattr(self.model, 'fit'):
+                self.model.fit(X, y)
+            else:
+                logger.warning(f"Model {self.model_name} has no fit/train method")
 
     def predict_proba(self, X: np.ndarray) -> np.ndarray:
         """
         Get win probabilities
 
         Args:
-            X: Feature matrix
+            X: Feature matrix (DataFrame or array)
 
         Returns:
             Array of [loss_prob, win_prob] for each game
         """
+        predictions = []
+
         if hasattr(self.model, 'predict_game'):
-            # Custom prediction method
-            predictions = []
-            for game_features in X:
-                result = self.model.predict_game(game_features)
-                home_win_prob = result.get('home_win_probability', 0.5)
-                predictions.append([1 - home_win_prob, home_win_prob])
-            return np.array(predictions)
-        else:
+            # Custom prediction method - process each game
+            for idx in range(len(X)):
+                game_data = X.iloc[idx] if hasattr(X, 'iloc') else X[idx]
+
+                # Convert to dict if needed
+                if hasattr(game_data, 'to_dict'):
+                    game_dict = game_data.to_dict()
+                elif isinstance(game_data, dict):
+                    game_dict = game_data
+                else:
+                    game_dict = {}
+
+                # Get prediction from model
+                try:
+                    result = self.model.predict_game(
+                        home_team=game_dict.get('home_team_id', game_dict.get('home_team_name')),
+                        away_team=game_dict.get('away_team_id', game_dict.get('away_team_name')),
+                        home_stats=game_dict,
+                        away_stats=game_dict
+                    )
+
+                    # Extract probability
+                    if isinstance(result, dict):
+                        home_win_prob = result.get('home_win_probability', result.get('home_win_prob', 0.5))
+                    else:
+                        home_win_prob = 0.5
+
+                    predictions.append([1 - home_win_prob, home_win_prob])
+
+                except Exception as e:
+                    logger.debug(f"Prediction error: {e}")
+                    predictions.append([0.5, 0.5])  # Default to 50/50
+
+        elif hasattr(self.model, 'predict_proba'):
             # Sklearn interface
             return self.model.predict_proba(X)
+
+        elif hasattr(self.model, 'predict'):
+            # Binary predictions - convert to probabilities
+            preds = self.model.predict(X)
+            for pred in preds:
+                prob = pred if isinstance(pred, float) else float(pred)
+                predictions.append([1 - prob, prob])
+
+        else:
+            # No prediction method - default to 50/50
+            logger.warning(f"Model {self.model_name} has no predict method")
+            for _ in range(len(X)):
+                predictions.append([0.5, 0.5])
+
+        return np.array(predictions)
 
     def predict(self, X: np.ndarray) -> np.ndarray:
         """Binary predictions (0 or 1)"""
