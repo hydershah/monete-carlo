@@ -1,0 +1,195 @@
+game_id,game_date,league,season,home_team_id,home_team_name,away_team_id,away_team_name,home_score,away_score,status,venue,neutral_site,spread,total,home_ml,away_ml,completed,playoff
+401812722,2025-10-15 23:00:00+00:00,NBA,2024,30,Charlotte Hornets,29,Memphis Grizzlies,145,116,STATUS_FINAL,First Horizon Coliseum,False,,,,,True,False
+401812723,2025-10-15 23:30:00+00:00,NBA,2024,2,Boston Celtics,28,Toronto Raptors,110,108,STATUS_FINAL,TD Garden,False,,,,,True,False
+401812725,2025-10-16 02:00:00+00:00,NBA,2024,23,Sacramento Kings,12,LA Clippers,91,109,STATUS_FINAL,Golden 1 Center,False,,,,,True,False
+401812724,2025-10-16 02:30:00+00:00,NBA,2024,13,Los Angeles Lakers,6,Dallas Mavericks,94,121,STATUS_FINAL,T-Mobile Arena,False,,,,,True,False
+401812726,2025-10-16 23:00:00+00:00,NBA,2024,19,Orlando Magic,3,New Orleans Pelicans,132,125,STATUS_FINAL,Kia Center,False,,,,,True,False
+401812727,2025-10-16 23:00:00+00:00,NBA,2024,8,Detroit Pistons,27,Washington Wizards,119,98,STATUS_FINAL,Little Caesars Arena,False,,,,,True,False
+401812728,2025-10-16 23:30:00+00:00,NBA,2024,1,Atlanta Hawks,10,Houston Rockets,115,133,STATUS_FINAL,State Farm Arena,False,,,,,True,False
+401812729,2025-10-17 00:00:00+00:00,NBA,2024,4,Chicago Bulls,16,Minnesota Timberwolves,126,120,STATUS_FINAL,United Center,False,,,,,True,False
+401812730,2025-10-17 01:00:00+00:00,NBA,2024,26,Utah Jazz,22,Portland Trail Blazers,132,129,STATUS_FINAL,Delta Center,False,,,,,True,False
+401812731,2025-10-17 23:00:00+00:00,NBA,2024,28,Toronto Raptors,17,Brooklyn Nets,119,114,STATUS_FINAL,Scotiabank Arena,False,,,,,True,False
+401812732,2025-10-17 23:00:00+00:00,NBA,2024,20,Philadelphia 76ers,16,Minnesota Timberwolves,126,110,STATUS_FINAL,Xfinity Mobile Arena,False,,,,,True,False
+401812733,2025-10-17 23:30:00+00:00,NBA,2024,18,New York Knicks,30,Charlotte Hornets,113,108,STATUS_FINAL,Madison Square Garden,False,,,,,True,False
+401812734,2025-10-18 00:00:00+00:00,NBA,2024,14,Miami Heat,29,Memphis Grizzlies,125,141,STATUS_FINAL,Kaseya Center,False,,,,,True,False
+401812735,2025-10-18 00:00:00+00:00,NBA,2024,25,Oklahoma City Thunder,7,Denver Nuggets,94,91,STATUS_FINAL,Paycom Center,False,,,,,True,False
+401812736,2025-10-18 00:00:00+00:00,NBA,2024,24,San Antonio Spurs,11,Indiana Pacers,133,104,STATUS_FINAL,Frost Bank Center,False,,,,,True,False
+401812737,2025-10-18 02:00:00+00:00,NBA,2024,9,Golden State Warriors,12,LA Clippers,103,106,STATUS_FINAL,Chase Center,False,,,,,True,False
+401812738,2025-10-18 02:30:00+00:00,NBA,2024,13,Los Angeles Lakers,23,Sacramento Kings,116,117,STATUS_FINAL,crypto.com Arena,False,,,,,True,False
+401809243,2025-10-21 23:30:00+00:00,NBA,2024,25,Oklahoma City Thunder,10,Houston Rockets,125,124,STATUS_FINAL,Paycom Center,False,,,,,True,False
+401809244,2025-10-22 02:00:00+00:00,NBA,2024,13,Los Angeles Lakers,9,Golden State Warriors,109,119,STATUS_FINAL,crypto.com Arena,False,,,,,True,False
+401809234,2025-10-22 23:00:00+00:00,NBA,2024,18,New York Knicks,5,Cleveland Cavaliers,119,111,STATUS_FINAL,Madison Square Garden,False,,,,,True,False
+401809933,2025-10-22 23:00:00+00:00,NBA,2024,30,Charlotte Hornets,17,Brooklyn Nets,136,117,STATUS_FINAL,Spectrum Center,False,,,,,True,False
+401809934,2025-10-22 23:00:00+00:00,NBA,2024,19,Orlando Magic,14,Miami Heat,125,121,STATUS_FINAL,Kia Center,False,,,,,True,False
+401809935,2025-10-22 23:30:00+00:00,NBA,2024,1,Atlanta Hawks,28,Toronto Raptors,118,138,STATUS_FINAL,State Farm Arena,False,,,,,True,False
+401809936,2025-10-22 23:30:00+00:00,NBA,2024,2,Boston Celtics,20,Philadelphia 76ers,116,117,STATUS_FINAL,TD Garden,False,,,,,True,False
+401809937,2025-10-23 00:00:00+00:00,NBA,2024,4,Chicago Bulls,8,Detroit Pistons,115,111,STATUS_FINAL,United Center,False,,,,,True,False
+401809938,2025-10-23 00:00:00+00:00,NBA,2024,29,Memphis Grizzlies,3,New Orleans Pelicans,128,122,STATUS_FINAL,FedExForum,False,,,,,True,False
+401809939,2025-10-23 00:00:00+00:00,NBA,2024,15,Milwaukee Bucks,27,Washington Wizards,133,120,STATUS_FINAL,Fiserv Forum,False,,,,,True,False
+401809940,2025-10-23 01:00:00+00:00,NBA,2024,26,Utah Jazz,12,LA Clippers,129,108,STATUS_FINAL,Delta Center,False,,,,,True,False
+401809235,2025-10-23 01:47:00+00:00,NBA,2024,6,Dallas Mavericks,24,San Antonio Spurs,92,125,STATUS_FINAL,American Airlines Center,False,,,,,True,False
+401809941,2025-10-23 02:00:00+00:00,NBA,2024,21,Phoenix Suns,23,Sacramento Kings,120,116,STATUS_FINAL,Mortgage Matchup Center,False,,,,,True,False
+401809942,2025-10-23 02:00:00+00:00,NBA,2024,22,Portland Trail Blazers,16,Minnesota Timberwolves,114,118,STATUS_FINAL,Moda Center,False,,,,,True,False
+401809236,2025-10-23 23:30:00+00:00,NBA,2024,11,Indiana Pacers,25,Oklahoma City Thunder,135,141,STATUS_FINAL,Gainbridge Fieldhouse,False,,,,,True,False
+401809237,2025-10-24 02:17:00+00:00,NBA,2024,9,Golden State Warriors,7,Denver Nuggets,137,131,STATUS_FINAL,Chase Center,False,,,,,True,False
+401809946,2025-10-24 22:30:00+00:00,NBA,2024,28,Toronto Raptors,15,Milwaukee Bucks,116,122,STATUS_FINAL,Scotiabank Arena,False,,,,,True,False
+401809943,2025-10-24 23:00:00+00:00,NBA,2024,19,Orlando Magic,1,Atlanta Hawks,107,111,STATUS_FINAL,Kia Center,False,,,,,True,False
+401809944,2025-10-24 23:30:00+00:00,NBA,2024,17,Brooklyn Nets,5,Cleveland Cavaliers,124,131,STATUS_FINAL,Barclays Center,False,,,,,True,False
+401809945,2025-10-24 23:30:00+00:00,NBA,2024,18,New York Knicks,2,Boston Celtics,105,95,STATUS_FINAL,Madison Square Garden,False,,,,,True,False
+401809947,2025-10-25 00:00:00+00:00,NBA,2024,10,Houston Rockets,8,Detroit Pistons,111,115,STATUS_FINAL,Toyota Center (Houston),False,,,,,True,False
+401809948,2025-10-25 00:00:00+00:00,NBA,2024,29,Memphis Grizzlies,14,Miami Heat,114,146,STATUS_FINAL,FedExForum,False,,,,,True,False
+401809949,2025-10-25 00:00:00+00:00,NBA,2024,3,New Orleans Pelicans,24,San Antonio Spurs,116,120,STATUS_FINAL,Smoothie King Center,False,,,,,True,False
+401809950,2025-10-25 00:30:00+00:00,NBA,2024,6,Dallas Mavericks,27,Washington Wizards,107,117,STATUS_FINAL,American Airlines Center,False,,,,,True,False
+401809951,2025-10-25 02:00:00+00:00,NBA,2024,13,Los Angeles Lakers,16,Minnesota Timberwolves,128,110,STATUS_FINAL,crypto.com Arena,False,,,,,True,False
+401809952,2025-10-25 02:00:00+00:00,NBA,2024,22,Portland Trail Blazers,9,Golden State Warriors,139,119,STATUS_FINAL,Moda Center,False,,,,,True,False
+401809953,2025-10-25 02:00:00+00:00,NBA,2024,23,Sacramento Kings,26,Utah Jazz,105,104,STATUS_FINAL,Golden 1 Center,False,,,,,True,False
+401809954,2025-10-25 02:30:00+00:00,NBA,2024,12,LA Clippers,21,Phoenix Suns,129,102,STATUS_FINAL,Intuit Dome,False,,,,,True,False
+401809955,2025-10-25 23:00:00+00:00,NBA,2024,19,Orlando Magic,4,Chicago Bulls,98,110,STATUS_FINAL,Kia Center,False,,,,,True,False
+401809956,2025-10-25 23:30:00+00:00,NBA,2024,1,Atlanta Hawks,25,Oklahoma City Thunder,100,117,STATUS_FINAL,State Farm Arena,False,,,,,True,False
+401809957,2025-10-25 23:30:00+00:00,NBA,2024,20,Philadelphia 76ers,30,Charlotte Hornets,125,121,STATUS_FINAL,Xfinity Mobile Arena,False,,,,,True,False
+401809958,2025-10-26 00:00:00+00:00,NBA,2024,29,Memphis Grizzlies,11,Indiana Pacers,128,103,STATUS_FINAL,FedExForum,False,,,,,True,False
+401809959,2025-10-26 01:00:00+00:00,NBA,2024,7,Denver Nuggets,21,Phoenix Suns,133,111,STATUS_FINAL,Ball Arena,False,,,,,True,False
+401809960,2025-10-26 18:00:00+00:00,NBA,2024,24,San Antonio Spurs,17,Brooklyn Nets,118,107,STATUS_FINAL,Frost Bank Center,False,,,,,True,False
+401809961,2025-10-26 19:30:00+00:00,NBA,2024,8,Detroit Pistons,2,Boston Celtics,119,113,STATUS_FINAL,Little Caesars Arena,False,,,,,True,False
+401809962,2025-10-26 22:00:00+00:00,NBA,2024,5,Cleveland Cavaliers,15,Milwaukee Bucks,118,113,STATUS_FINAL,Rocket Arena,False,,,,,True,False
+401809963,2025-10-26 22:00:00+00:00,NBA,2024,14,Miami Heat,18,New York Knicks,115,107,STATUS_FINAL,Kaseya Center,False,,,,,True,False
+401809964,2025-10-26 22:00:00+00:00,NBA,2024,27,Washington Wizards,30,Charlotte Hornets,113,139,STATUS_FINAL,Capital One Arena,False,,,,,True,False
+401809965,2025-10-26 23:00:00+00:00,NBA,2024,16,Minnesota Timberwolves,11,Indiana Pacers,114,110,STATUS_FINAL,Target Center,False,,,,,True,False
+401809966,2025-10-26 23:30:00+00:00,NBA,2024,6,Dallas Mavericks,28,Toronto Raptors,139,129,STATUS_FINAL,American Airlines Center,False,,,,,True,False
+401809967,2025-10-27 01:00:00+00:00,NBA,2024,12,LA Clippers,22,Portland Trail Blazers,114,107,STATUS_FINAL,Intuit Dome,False,,,,,True,False
+401809968,2025-10-27 01:00:00+00:00,NBA,2024,23,Sacramento Kings,13,Los Angeles Lakers,120,127,STATUS_FINAL,Golden 1 Center,False,,,,,True,False
+401809245,2025-10-27 23:00:00+00:00,NBA,2024,8,Detroit Pistons,5,Cleveland Cavaliers,95,116,STATUS_FINAL,Little Caesars Arena,False,,,,,True,False
+401809969,2025-10-27 23:00:00+00:00,NBA,2024,20,Philadelphia 76ers,19,Orlando Magic,136,124,STATUS_FINAL,Xfinity Mobile Arena,False,,,,,True,False
+401809970,2025-10-28 00:00:00+00:00,NBA,2024,4,Chicago Bulls,1,Atlanta Hawks,128,123,STATUS_FINAL,United Center,False,,,,,True,False
+401809971,2025-10-28 00:00:00+00:00,NBA,2024,10,Houston Rockets,17,Brooklyn Nets,137,109,STATUS_FINAL,Toyota Center (Houston),False,,,,,True,False
+401809972,2025-10-28 00:00:00+00:00,NBA,2024,3,New Orleans Pelicans,2,Boston Celtics,90,122,STATUS_FINAL,Smoothie King Center,False,,,,,True,False
+401809973,2025-10-28 00:00:00+00:00,NBA,2024,24,San Antonio Spurs,28,Toronto Raptors,121,103,STATUS_FINAL,Frost Bank Center,False,,,,,True,False
+401809974,2025-10-28 00:30:00+00:00,NBA,2024,6,Dallas Mavericks,25,Oklahoma City Thunder,94,101,STATUS_FINAL,American Airlines Center,False,,,,,True,False
+401809975,2025-10-28 01:00:00+00:00,NBA,2024,26,Utah Jazz,21,Phoenix Suns,138,134,STATUS_FINAL,Delta Center,False,,,,,True,False
+401809246,2025-10-28 01:30:00+00:00,NBA,2024,16,Minnesota Timberwolves,7,Denver Nuggets,114,127,STATUS_FINAL,Target Center,False,,,,,True,False
+401809976,2025-10-28 02:00:00+00:00,NBA,2024,9,Golden State Warriors,29,Memphis Grizzlies,131,118,STATUS_FINAL,Chase Center,False,,,,,True,False
+401809977,2025-10-28 02:30:00+00:00,NBA,2024,13,Los Angeles Lakers,22,Portland Trail Blazers,108,122,STATUS_FINAL,crypto.com Arena,False,,,,,True,False
+401809978,2025-10-28 23:00:00+00:00,NBA,2024,27,Washington Wizards,20,Philadelphia 76ers,134,139,STATUS_FINAL,Capital One Arena,False,,,,,True,False
+401809979,2025-10-28 23:30:00+00:00,NBA,2024,14,Miami Heat,30,Charlotte Hornets,144,117,STATUS_FINAL,Kaseya Center,False,,,,,True,False
+401809980,2025-10-29 00:00:00+00:00,NBA,2024,15,Milwaukee Bucks,18,New York Knicks,121,111,STATUS_FINAL,Fiserv Forum,False,,,,,True,False
+401809981,2025-10-29 00:00:00+00:00,NBA,2024,25,Oklahoma City Thunder,23,Sacramento Kings,107,101,STATUS_FINAL,Paycom Center,False,,,,,True,False
+401809982,2025-10-29 03:00:00+00:00,NBA,2024,9,Golden State Warriors,12,LA Clippers,98,79,STATUS_FINAL,Chase Center,False,,,,,True,False
+401809986,2025-10-29 22:30:00+00:00,NBA,2024,28,Toronto Raptors,10,Houston Rockets,121,139,STATUS_FINAL,Scotiabank Arena,False,,,,,True,False
+401809983,2025-10-29 23:00:00+00:00,NBA,2024,2,Boston Celtics,5,Cleveland Cavaliers,125,105,STATUS_FINAL,TD Garden,False,,,,,True,False
+401809984,2025-10-29 23:00:00+00:00,NBA,2024,8,Detroit Pistons,19,Orlando Magic,135,116,STATUS_FINAL,Little Caesars Arena,False,,,,,True,False
+401809985,2025-10-29 23:30:00+00:00,NBA,2024,17,Brooklyn Nets,1,Atlanta Hawks,112,117,STATUS_FINAL,Barclays Center,False,,,,,True,False
+401809987,2025-10-30 00:00:00+00:00,NBA,2024,4,Chicago Bulls,23,Sacramento Kings,126,113,STATUS_FINAL,United Center,False,,,,,True,False
+401809988,2025-10-30 00:30:00+00:00,NBA,2024,6,Dallas Mavericks,11,Indiana Pacers,107,105,STATUS_FINAL,American Airlines Center,False,,,,,True,False
+401809989,2025-10-30 01:00:00+00:00,NBA,2024,7,Denver Nuggets,3,New Orleans Pelicans,122,88,STATUS_FINAL,Ball Arena,False,,,,,True,False
+401809990,2025-10-30 01:00:00+00:00,NBA,2024,26,Utah Jazz,22,Portland Trail Blazers,134,136,STATUS_FINAL,Delta Center,False,,,,,True,False
+401809991,2025-10-30 01:30:00+00:00,NBA,2024,16,Minnesota Timberwolves,13,Los Angeles Lakers,115,116,STATUS_FINAL,Target Center,False,,,,,True,False
+401809992,2025-10-30 02:00:00+00:00,NBA,2024,21,Phoenix Suns,29,Memphis Grizzlies,113,114,STATUS_FINAL,Mortgage Matchup Center,False,,,,,True,False
+401809993,2025-10-30 23:00:00+00:00,NBA,2024,30,Charlotte Hornets,19,Orlando Magic,107,123,STATUS_FINAL,Spectrum Center,False,,,,,True,False
+401809994,2025-10-31 00:00:00+00:00,NBA,2024,15,Milwaukee Bucks,9,Golden State Warriors,120,110,STATUS_FINAL,Fiserv Forum,False,,,,,True,False
+401809995,2025-10-31 00:00:00+00:00,NBA,2024,25,Oklahoma City Thunder,27,Washington Wizards,127,108,STATUS_FINAL,Paycom Center,False,,,,,True,False
+401809996,2025-10-31 00:30:00+00:00,NBA,2024,24,San Antonio Spurs,14,Miami Heat,107,101,STATUS_FINAL,Frost Bank Center,False,,,,,True,False
+401809502,2025-10-31 23:00:00+00:00,NBA,2024,11,Indiana Pacers,1,Atlanta Hawks,108,128,STATUS_FINAL,Gainbridge Fieldhouse,False,,,,,True,False
+401809503,2025-10-31 23:00:00+00:00,NBA,2024,20,Philadelphia 76ers,2,Boston Celtics,108,109,STATUS_FINAL,Xfinity Mobile Arena,False,,,,,True,False
+401809504,2025-10-31 23:30:00+00:00,NBA,2024,5,Cleveland Cavaliers,28,Toronto Raptors,101,112,STATUS_FINAL,Rocket Arena,False,,,,,True,False
+401809505,2025-11-01 00:00:00+00:00,NBA,2024,4,Chicago Bulls,18,New York Knicks,135,125,STATUS_FINAL,United Center,False,,,,,True,False
+401809506,2025-11-01 01:30:00+00:00,NBA,2024,29,Memphis Grizzlies,13,Los Angeles Lakers,112,117,STATUS_FINAL,FedExForum,False,,,,,True,False
+401809507,2025-11-01 02:00:00+00:00,NBA,2024,21,Phoenix Suns,26,Utah Jazz,118,96,STATUS_FINAL,Mortgage Matchup Center,False,,,,,True,False
+401809508,2025-11-01 02:00:00+00:00,NBA,2024,22,Portland Trail Blazers,7,Denver Nuggets,109,107,STATUS_FINAL,Moda Center,False,,,,,True,False
+401809509,2025-11-01 02:30:00+00:00,NBA,2024,12,LA Clippers,3,New Orleans Pelicans,126,124,STATUS_FINAL,Intuit Dome,False,,,,,True,False
+401809997,2025-11-01 21:00:00+00:00,NBA,2024,15,Milwaukee Bucks,23,Sacramento Kings,133,135,STATUS_FINAL,Fiserv Forum,False,,,,,True,False
+401809998,2025-11-01 22:00:00+00:00,NBA,2024,30,Charlotte Hornets,16,Minnesota Timberwolves,105,122,STATUS_FINAL,Spectrum Center,False,,,,,True,False
+401809999,2025-11-01 23:00:00+00:00,NBA,2024,11,Indiana Pacers,9,Golden State Warriors,114,109,STATUS_FINAL,Gainbridge Fieldhouse,False,,,,,True,False
+401810000,2025-11-01 23:00:00+00:00,NBA,2024,27,Washington Wizards,19,Orlando Magic,94,125,STATUS_FINAL,Capital One Arena,False,,,,,True,False
+401810001,2025-11-02 00:00:00+00:00,NBA,2024,2,Boston Celtics,10,Houston Rockets,101,128,STATUS_FINAL,TD Garden,False,,,,,True,False
+401810002,2025-11-02 02:00:00+00:00,NBA,2024,8,Detroit Pistons,6,Dallas Mavericks,122,110,STATUS_FINAL,Arena CDMX,False,,,,,True,False
+401810003,2025-11-02 20:30:00+00:00,NBA,2024,25,Oklahoma City Thunder,3,New Orleans Pelicans,137,106,STATUS_FINAL,Paycom Center,False,,,,,True,False
+401810004,2025-11-02 23:00:00+00:00,NBA,2024,17,Brooklyn Nets,20,Philadelphia 76ers,105,129,STATUS_FINAL,Barclays Center,False,,,,,True,False
+401810005,2025-11-02 23:00:00+00:00,NBA,2024,30,Charlotte Hornets,26,Utah Jazz,126,103,STATUS_FINAL,Spectrum Center,False,,,,,True,False
+401810006,2025-11-02 23:00:00+00:00,NBA,2024,5,Cleveland Cavaliers,1,Atlanta Hawks,117,109,STATUS_FINAL,Rocket Arena,False,,,,,True,False
+401810007,2025-11-02 23:00:00+00:00,NBA,2024,28,Toronto Raptors,29,Memphis Grizzlies,117,104,STATUS_FINAL,Scotiabank Arena,False,,,,,True,False
+401810008,2025-11-03 00:00:00+00:00,NBA,2024,18,New York Knicks,4,Chicago Bulls,128,116,STATUS_FINAL,Madison Square Garden,False,,,,,True,False
+401810009,2025-11-03 01:00:00+00:00,NBA,2024,21,Phoenix Suns,24,San Antonio Spurs,130,118,STATUS_FINAL,Mortgage Matchup Center,False,,,,,True,False
+401810010,2025-11-03 02:30:00+00:00,NBA,2024,13,Los Angeles Lakers,14,Miami Heat,130,120,STATUS_FINAL,crypto.com Arena,False,,,,,True,False
+401810011,2025-11-04 00:00:00+00:00,NBA,2024,17,Brooklyn Nets,16,Minnesota Timberwolves,109,125,STATUS_FINAL,Barclays Center,False,,,,,True,False
+401810012,2025-11-04 00:00:00+00:00,NBA,2024,11,Indiana Pacers,15,Milwaukee Bucks,115,117,STATUS_FINAL,Gainbridge Fieldhouse,False,,,,,True,False
+401810013,2025-11-04 00:30:00+00:00,NBA,2024,2,Boston Celtics,26,Utah Jazz,103,105,STATUS_FINAL,TD Garden,False,,,,,True,False
+401810014,2025-11-04 00:30:00+00:00,NBA,2024,18,New York Knicks,27,Washington Wizards,119,102,STATUS_FINAL,Madison Square Garden,False,,,,,True,False
+401810015,2025-11-04 01:00:00+00:00,NBA,2024,10,Houston Rockets,6,Dallas Mavericks,110,102,STATUS_FINAL,Toyota Center (Houston),False,,,,,True,False
+401810016,2025-11-04 01:00:00+00:00,NBA,2024,29,Memphis Grizzlies,8,Detroit Pistons,106,114,STATUS_FINAL,FedExForum,False,,,,,True,False
+401810017,2025-11-04 02:00:00+00:00,NBA,2024,7,Denver Nuggets,23,Sacramento Kings,130,124,STATUS_FINAL,Ball Arena,False,,,,,True,False
+401810018,2025-11-04 03:00:00+00:00,NBA,2024,22,Portland Trail Blazers,13,Los Angeles Lakers,115,123,STATUS_FINAL,Moda Center,False,,,,,True,False
+401810019,2025-11-04 03:30:00+00:00,NBA,2024,12,LA Clippers,14,Miami Heat,119,120,STATUS_FINAL,Intuit Dome,False,,,,,True,False
+401810020,2025-11-05 00:30:00+00:00,NBA,2024,28,Toronto Raptors,15,Milwaukee Bucks,128,100,STATUS_FINAL,Scotiabank Arena,False,,,,,True,False
+401810021,2025-11-05 01:00:00+00:00,NBA,2024,1,Atlanta Hawks,19,Orlando Magic,127,112,STATUS_FINAL,State Farm Arena,False,,,,,True,False
+401810022,2025-11-05 01:00:00+00:00,NBA,2024,4,Chicago Bulls,20,Philadelphia 76ers,113,111,STATUS_FINAL,United Center,False,,,,,True,False
+401810023,2025-11-05 01:00:00+00:00,NBA,2024,3,New Orleans Pelicans,30,Charlotte Hornets,116,112,STATUS_FINAL,Smoothie King Center,False,,,,,True,False
+401810024,2025-11-05 03:00:00+00:00,NBA,2024,9,Golden State Warriors,21,Phoenix Suns,118,107,STATUS_FINAL,Chase Center,False,,,,,True,False
+401810025,2025-11-05 04:00:00+00:00,NBA,2024,12,LA Clippers,25,Oklahoma City Thunder,107,126,STATUS_FINAL,Intuit Dome,False,,,,,True,False
+401810026,2025-11-06 00:00:00+00:00,NBA,2024,5,Cleveland Cavaliers,20,Philadelphia 76ers,132,121,STATUS_FINAL,Rocket Arena,False,,,,,True,False
+401810027,2025-11-06 00:00:00+00:00,NBA,2024,8,Detroit Pistons,26,Utah Jazz,114,103,STATUS_FINAL,Little Caesars Arena,False,,,,,True,False
+401810028,2025-11-06 00:00:00+00:00,NBA,2024,11,Indiana Pacers,17,Brooklyn Nets,103,112,STATUS_FINAL,Gainbridge Fieldhouse,False,,,,,True,False
+401810029,2025-11-06 00:30:00+00:00,NBA,2024,2,Boston Celtics,27,Washington Wizards,136,107,STATUS_FINAL,TD Garden,False,,,,,True,False
+401810030,2025-11-06 00:30:00+00:00,NBA,2024,18,New York Knicks,16,Minnesota Timberwolves,137,114,STATUS_FINAL,Madison Square Garden,False,,,,,True,False
+401810031,2025-11-06 01:00:00+00:00,NBA,2024,29,Memphis Grizzlies,10,Houston Rockets,109,124,STATUS_FINAL,FedExForum,False,,,,,True,False
+401810032,2025-11-06 01:30:00+00:00,NBA,2024,6,Dallas Mavericks,3,New Orleans Pelicans,99,101,STATUS_FINAL,American Airlines Center,False,,,,,True,False
+401810033,2025-11-06 02:00:00+00:00,NBA,2024,7,Denver Nuggets,14,Miami Heat,122,112,STATUS_FINAL,Ball Arena,False,,,,,True,False
+401810034,2025-11-06 03:00:00+00:00,NBA,2024,13,Los Angeles Lakers,24,San Antonio Spurs,118,116,STATUS_FINAL,crypto.com Arena,False,,,,,True,False
+401810035,2025-11-06 03:00:00+00:00,NBA,2024,22,Portland Trail Blazers,25,Oklahoma City Thunder,121,119,STATUS_FINAL,Moda Center,False,,,,,True,False
+401810036,2025-11-06 03:00:00+00:00,NBA,2024,23,Sacramento Kings,9,Golden State Warriors,121,116,STATUS_FINAL,Golden 1 Center,False,,,,,True,False
+401810037,2025-11-07 02:00:00+00:00,NBA,2024,21,Phoenix Suns,12,LA Clippers,115,102,STATUS_FINAL,Mortgage Matchup Center,False,,,,,True,False
+401809510,2025-11-08 00:00:00+00:00,NBA,2024,19,Orlando Magic,2,Boston Celtics,123,110,STATUS_FINAL,Kia Center,False,,,,,True,False
+401809511,2025-11-08 00:00:00+00:00,NBA,2024,27,Washington Wizards,5,Cleveland Cavaliers,115,148,STATUS_FINAL,Capital One Arena,False,,,,,True,False
+401809512,2025-11-08 00:30:00+00:00,NBA,2024,1,Atlanta Hawks,28,Toronto Raptors,97,109,STATUS_FINAL,State Farm Arena,False,,,,,True,False
+401809773,2025-11-08 00:30:00+00:00,NBA,2024,17,Brooklyn Nets,8,Detroit Pistons,107,125,STATUS_FINAL,Barclays Center,False,,,,,True,False
+401809774,2025-11-08 00:30:00+00:00,NBA,2024,24,San Antonio Spurs,10,Houston Rockets,121,110,STATUS_FINAL,Frost Bank Center,False,,,,,True,False
+401809775,2025-11-08 01:00:00+00:00,NBA,2024,14,Miami Heat,30,Charlotte Hornets,126,108,STATUS_FINAL,Kaseya Center,False,,,,,True,False
+401809776,2025-11-08 01:00:00+00:00,NBA,2024,29,Memphis Grizzlies,6,Dallas Mavericks,118,104,STATUS_FINAL,FedExForum,False,,,,,True,False
+401809777,2025-11-08 01:00:00+00:00,NBA,2024,15,Milwaukee Bucks,4,Chicago Bulls,126,110,STATUS_FINAL,Fiserv Forum,False,,,,,True,False
+401809778,2025-11-08 01:00:00+00:00,NBA,2024,16,Minnesota Timberwolves,26,Utah Jazz,137,97,STATUS_FINAL,Target Center,False,,,,,True,False
+401809779,2025-11-08 03:00:00+00:00,NBA,2024,7,Denver Nuggets,9,Golden State Warriors,129,104,STATUS_FINAL,Ball Arena,False,,,,,True,False
+401809780,2025-11-08 03:00:00+00:00,NBA,2024,23,Sacramento Kings,25,Oklahoma City Thunder,101,132,STATUS_FINAL,Golden 1 Center,False,,,,,True,False
+401810038,2025-11-09 00:00:00+00:00,NBA,2024,27,Washington Wizards,6,Dallas Mavericks,105,111,STATUS_FINAL,Capital One Arena,False,,,,,True,False
+401810039,2025-11-09 00:30:00+00:00,NBA,2024,20,Philadelphia 76ers,28,Toronto Raptors,130,120,STATUS_FINAL,Xfinity Mobile Arena,False,,,,,True,False
+401810040,2025-11-09 01:00:00+00:00,NBA,2024,1,Atlanta Hawks,13,Los Angeles Lakers,122,102,STATUS_FINAL,State Farm Arena,False,,,,,True,False
+401810041,2025-11-09 01:00:00+00:00,NBA,2024,5,Cleveland Cavaliers,4,Chicago Bulls,128,122,STATUS_FINAL,Rocket Arena,False,,,,,True,False
+401810042,2025-11-09 01:00:00+00:00,NBA,2024,14,Miami Heat,22,Portland Trail Blazers,136,131,STATUS_FINAL,Kaseya Center,False,,,,,True,False
+401810043,2025-11-09 01:00:00+00:00,NBA,2024,24,San Antonio Spurs,3,New Orleans Pelicans,126,119,STATUS_FINAL,Frost Bank Center,False,,,,,True,False
+401810044,2025-11-09 02:00:00+00:00,NBA,2024,7,Denver Nuggets,11,Indiana Pacers,117,100,STATUS_FINAL,Ball Arena,False,,,,,True,False
+401810045,2025-11-09 03:30:00+00:00,NBA,2024,12,LA Clippers,21,Phoenix Suns,103,114,STATUS_FINAL,Intuit Dome,False,,,,,True,False
+401810046,2025-11-09 20:30:00+00:00,NBA,2024,15,Milwaukee Bucks,10,Houston Rockets,115,122,STATUS_FINAL,Fiserv Forum,False,,,,,True,False
+401810047,2025-11-09 23:00:00+00:00,NBA,2024,18,New York Knicks,17,Brooklyn Nets,134,98,STATUS_FINAL,Madison Square Garden,False,,,,,True,False
+401810048,2025-11-09 23:00:00+00:00,NBA,2024,19,Orlando Magic,2,Boston Celtics,107,111,STATUS_FINAL,Kia Center,False,,,,,True,False
+401810049,2025-11-09 23:00:00+00:00,NBA,2024,29,Memphis Grizzlies,25,Oklahoma City Thunder,100,114,STATUS_FINAL,FedExForum,False,,,,,True,False
+401810050,2025-11-10 00:30:00+00:00,NBA,2024,20,Philadelphia 76ers,8,Detroit Pistons,108,111,STATUS_FINAL,Xfinity Mobile Arena,False,,,,,True,False
+401810051,2025-11-10 01:30:00+00:00,NBA,2024,9,Golden State Warriors,11,Indiana Pacers,114,83,STATUS_FINAL,Chase Center,False,,,,,True,False
+401810052,2025-11-10 02:00:00+00:00,NBA,2024,23,Sacramento Kings,16,Minnesota Timberwolves,117,144,STATUS_FINAL,Golden 1 Center,False,,,,,True,False
+401810053,2025-11-11 00:00:00+00:00,NBA,2024,30,Charlotte Hornets,13,Los Angeles Lakers,111,121,STATUS_FINAL,Spectrum Center,False,,,,,True,False
+401810054,2025-11-11 00:00:00+00:00,NBA,2024,8,Detroit Pistons,27,Washington Wizards,137,135,STATUS_FINAL,Little Caesars Arena,False,,,,,True,False
+401810055,2025-11-11 00:00:00+00:00,NBA,2024,19,Orlando Magic,22,Portland Trail Blazers,115,112,STATUS_FINAL,Kia Center,False,,,,,True,False
+401810056,2025-11-11 00:30:00+00:00,NBA,2024,14,Miami Heat,5,Cleveland Cavaliers,140,138,STATUS_FINAL,Kaseya Center,False,,,,,True,False
+401810057,2025-11-11 01:00:00+00:00,NBA,2024,4,Chicago Bulls,24,San Antonio Spurs,117,121,STATUS_FINAL,United Center,False,,,,,True,False
+401810058,2025-11-11 01:30:00+00:00,NBA,2024,6,Dallas Mavericks,15,Milwaukee Bucks,114,116,STATUS_FINAL,American Airlines Center,False,,,,,True,False
+401810059,2025-11-11 02:00:00+00:00,NBA,2024,21,Phoenix Suns,3,New Orleans Pelicans,121,98,STATUS_FINAL,Mortgage Matchup Center,False,,,,,True,False
+401810060,2025-11-11 02:00:00+00:00,NBA,2024,26,Utah Jazz,16,Minnesota Timberwolves,113,120,STATUS_FINAL,Delta Center,False,,,,,True,False
+401810061,2025-11-11 03:30:00+00:00,NBA,2024,12,LA Clippers,1,Atlanta Hawks,102,105,STATUS_FINAL,Intuit Dome,False,,,,,True,False
+401810062,2025-11-12 00:30:00+00:00,NBA,2024,17,Brooklyn Nets,28,Toronto Raptors,109,119,STATUS_FINAL,Barclays Center,False,,,,,True,False
+401810063,2025-11-12 00:30:00+00:00,NBA,2024,18,New York Knicks,29,Memphis Grizzlies,133,120,STATUS_FINAL,Madison Square Garden,False,,,,,True,False
+401810064,2025-11-12 01:00:00+00:00,NBA,2024,20,Philadelphia 76ers,2,Boston Celtics,102,100,STATUS_FINAL,Xfinity Mobile Arena,False,,,,,True,False
+401810065,2025-11-12 01:00:00+00:00,NBA,2024,25,Oklahoma City Thunder,9,Golden State Warriors,126,102,STATUS_FINAL,Paycom Center,False,,,,,True,False
+401810066,2025-11-12 02:00:00+00:00,NBA,2024,26,Utah Jazz,11,Indiana Pacers,152,128,STATUS_FINAL,Delta Center,False,,,,,True,False
+401810067,2025-11-12 04:00:00+00:00,NBA,2024,23,Sacramento Kings,7,Denver Nuggets,108,122,STATUS_FINAL,Golden 1 Center,False,,,,,True,False
+401810068,2025-11-13 00:00:00+00:00,NBA,2024,30,Charlotte Hornets,15,Milwaukee Bucks,111,100,STATUS_FINAL,Spectrum Center,False,,,,,True,False
+401810069,2025-11-13 00:00:00+00:00,NBA,2024,8,Detroit Pistons,4,Chicago Bulls,124,113,STATUS_FINAL,Little Caesars Arena,False,,,,,True,False
+401810070,2025-11-13 00:00:00+00:00,NBA,2024,18,New York Knicks,19,Orlando Magic,107,124,STATUS_FINAL,Madison Square Garden,False,,,,,True,False
+401810071,2025-11-13 00:30:00+00:00,NBA,2024,2,Boston Celtics,29,Memphis Grizzlies,131,95,STATUS_FINAL,TD Garden,False,,,,,True,False
+401810072,2025-11-13 00:30:00+00:00,NBA,2024,14,Miami Heat,5,Cleveland Cavaliers,116,130,STATUS_FINAL,Kaseya Center,False,,,,,True,False
+401810073,2025-11-13 01:00:00+00:00,NBA,2024,10,Houston Rockets,27,Washington Wizards,135,112,STATUS_FINAL,Toyota Center (Houston),False,,,,,True,False
+401810074,2025-11-13 01:00:00+00:00,NBA,2024,3,New Orleans Pelicans,22,Portland Trail Blazers,117,125,STATUS_FINAL,Smoothie King Center,False,,,,,True,False
+401810075,2025-11-13 01:00:00+00:00,NBA,2024,24,San Antonio Spurs,9,Golden State Warriors,120,125,STATUS_FINAL,Frost Bank Center,False,,,,,True,False
+401810076,2025-11-13 01:30:00+00:00,NBA,2024,6,Dallas Mavericks,21,Phoenix Suns,114,123,STATUS_FINAL,American Airlines Center,False,,,,,True,False
+401810077,2025-11-13 02:47:00+00:00,NBA,2024,25,Oklahoma City Thunder,13,Los Angeles Lakers,121,92,STATUS_FINAL,Paycom Center,False,,,,,True,False
+401810078,2025-11-13 03:00:00+00:00,NBA,2024,23,Sacramento Kings,1,Atlanta Hawks,100,133,STATUS_FINAL,Golden 1 Center,False,,,,,True,False
+401810079,2025-11-13 03:30:00+00:00,NBA,2024,12,LA Clippers,7,Denver Nuggets,116,130,STATUS_FINAL,Intuit Dome,False,,,,,True,False
+401810080,2025-11-14 00:00:00+00:00,NBA,2024,5,Cleveland Cavaliers,28,Toronto Raptors,113,126,STATUS_FINAL,Rocket Arena,False,,,,,True,False
+401810081,2025-11-14 02:00:00+00:00,NBA,2024,21,Phoenix Suns,11,Indiana Pacers,133,98,STATUS_FINAL,Mortgage Matchup Center,False,,,,,True,False
+401810082,2025-11-14 02:00:00+00:00,NBA,2024,26,Utah Jazz,1,Atlanta Hawks,122,132,STATUS_FINAL,Delta Center,False,,,,,True,False

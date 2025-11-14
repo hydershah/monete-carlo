@@ -73,7 +73,7 @@ class Game(Base):
     odds_data = Column(JSON, nullable=True)  # Store odds from TheOddsAPI
 
     # Additional metadata
-    metadata = Column(JSON, nullable=True)
+    game_metadata = Column(JSON, nullable=True)
 
     # Timestamps
     created_at = Column(DateTime, server_default=func.now())
@@ -168,7 +168,7 @@ class Prediction(Base):
     brier_score = Column(Float, nullable=True)  # Calibration metric
 
     # Additional data
-    metadata = Column(JSON, nullable=True)
+    extra_metadata = Column(JSON, nullable=True)
 
     # Timestamps
     created_at = Column(DateTime, server_default=func.now())
@@ -293,7 +293,7 @@ class APIUsage(Base):
     estimated_cost = Column(Float, nullable=True)
 
     # Additional data
-    metadata = Column(JSON, nullable=True)
+    extra_metadata = Column(JSON, nullable=True)
 
     __table_args__ = (
         Index('ix_api_usage_name_date', 'api_name', 'request_date'),

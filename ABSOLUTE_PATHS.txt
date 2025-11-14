@@ -1,0 +1,166 @@
+ABSOLUTE FILE PATHS - GameLens.ai Simulations Directory Exploration
+
+=== MAIN SIMULATION FILES ===
+
+1. /Users/hyder/monete carlo/src/simulations/advanced_monte_carlo.py
+   - 28.9 KB, 801 lines
+   - Core: Advanced Monte Carlo with 4 variance reduction techniques
+   - Key classes: AdvancedMonteCarloEngine, SimulationResult
+   
+2. /Users/hyder/monete carlo/src/simulations/meta_ensemble.py
+   - 24.7 KB, 683 lines
+   - Core: Meta-ensemble stacking with Elastic Net
+   - Key classes: MetaEnsemble, EnsemblePrediction, GameContext
+   
+3. /Users/hyder/monete carlo/src/simulations/poisson_skellam_model.py
+   - 20 KB, 563 lines
+   - Core: Poisson/Skellam for low-scoring sports
+   - Key classes: PoissonSkellamModel, TeamStrength
+   
+4. /Users/hyder/monete carlo/src/simulations/logistic_regression_predictor.py
+   - 22.5 KB, 621 lines
+   - Core: Feature-based logistic regression classification
+   - Key classes: LogisticRegressionPredictor, GameFeatures
+   
+5. /Users/hyder/monete carlo/src/simulations/enhanced_elo_model.py
+   - 19.4 KB, 556 lines
+   - Core: Professional Elo rating with MOV adjustments
+   - Key classes: EnhancedEloModel, EloConfig
+   
+6. /Users/hyder/monete carlo/src/simulations/pythagorean_expectations.py
+   - 16.9 KB, 465 lines
+   - Core: Pythagorean formula adapted for all sports
+   - Key classes: PythagoreanExpectations, TeamStats
+
+=== SUPPORTING FILES ===
+
+7. /Users/hyder/monete carlo/src/simulations/monte_carlo.py
+   - 14.5 KB, 438 lines
+   - Simpler Monte Carlo variant (superseded by advanced_monte_carlo)
+   
+8. /Users/hyder/monete carlo/src/simulations/hybrid_predictor.py
+   - 13.7 KB, 411 lines
+   - Model blending utility
+   
+9. /Users/hyder/monete carlo/src/simulations/gpt_analyzer.py
+   - 12.8 KB, 384 lines
+   - AI commentary generator
+   
+10. /Users/hyder/monete carlo/src/simulations/poisson_model.py
+    - 12.7 KB, 380 lines
+    - Basic Poisson variant (superseded by poisson_skellam)
+    
+11. /Users/hyder/monete carlo/src/simulations/elo_model.py
+    - 11.6 KB, 347 lines
+    - Basic Elo variant (superseded by enhanced_elo)
+    
+12. /Users/hyder/monete carlo/src/simulations/__init__.py
+    - 64 bytes
+    - Package initialization
+
+=== DOCUMENTATION FILES ===
+
+/Users/hyder/monete carlo/SIMULATIONS_ARCHITECTURE_REPORT.md
+- 1662 lines
+- Comprehensive architecture report covering all models
+
+/Users/hyder/monete carlo/EXPLORATION_SUMMARY.md
+- Thorough summary of all key findings
+
+/Users/hyder/monete carlo/IMPLEMENTATION_SUMMARY.md
+- Original implementation summary
+
+/Users/hyder/monete carlo/VALIDATION_REPORT.md
+- Test results and validation status
+
+/Users/hyder/monete carlo/DATA_PIPELINE_README.md
+- Data infrastructure documentation
+
+/Users/hyder/monete carlo/goalserve.md
+- API configuration notes
+
+=== CONFIGURATION & INFRASTRUCTURE ===
+
+/Users/hyder/monete carlo/config/
+- Redis configuration and utilities
+
+/Users/hyder/monete carlo/scripts/
+- Backfill, daily jobs, utilities
+
+/Users/hyder/monete carlo/src/data/
+- Data manager and API client
+
+/Users/hyder/monete carlo/src/models/
+- Database schema
+
+=== RESEARCH DOCUMENTS ===
+
+/Users/hyder/monete carlo/docs/GameLens_AI_Predictive_Requirements_MonteCarlo.pdf
+- Original research requirements document
+
+/Users/hyder/monete carlo/docs/doc3.md
+- Commercial best practices reference
+
+
+SUMMARY OF EXPLORATION
+======================
+
+Total Files Examined: 12 Python files
+Total Lines of Code: ~4,500
+Total File Size: 196.3 KB
+
+Core Models (5):
+1. Advanced Monte Carlo Engine
+2. Poisson/Skellam Model
+3. Logistic Regression Predictor
+4. Enhanced Elo Model
+5. Pythagorean Expectations
+
+Ensemble System (1):
+- Meta-Ensemble with Elastic Net Stacking
+
+Supporting Components (5):
+- Basic variants and utilities
+- Not primary focus but documented
+
+Key Metrics Achieved:
+- Variance Reduction: 2.5x (60-80% efficiency gain)
+- Speed: 168ms cold, 2ms cached
+- Accuracy Target: 73-75% (NBA)
+- Sharpe Ratio Target: >1.5
+
+Sport Coverage: 7 major sports
+- NBA, NFL, MLB, NHL, Soccer, NCAAB, NCAAF
+
+All files use professional-grade Python with:
+- Type hints via dataclasses
+- NumPy/SciPy numerical operations
+- Numba JIT optimization
+- Comprehensive error handling
+- Cross-validation
+- Dynamic weighting
+
+
+COMPREHENSIVE DOCUMENTATION
+============================
+
+Two detailed reports were generated:
+
+1. SIMULATIONS_ARCHITECTURE_REPORT.md (1662 lines)
+   - Complete technical breakdown of all 5 models
+   - Mathematical formulas and implementations
+   - Sport-specific configurations
+   - Feature engineering details
+   - Ensemble architecture and Kelly Criterion
+   - Performance characteristics
+   - Research alignment verification
+
+2. EXPLORATION_SUMMARY.md (400+ lines)
+   - Executive summary of key findings
+   - Model capabilities overview
+   - Implementation quality assessment
+   - Target metrics achievement status
+   - Critical implementation details
+
+Both documents contain code snippets, configuration values, and detailed explanations
+suitable for technical stakeholders and researchers.
